@@ -125,7 +125,7 @@ data/
 Clone this repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Federated-Electricity-Theft-Detection.git
+git clone https://github.com/vpthesizzler/Federated-Electricity-Theft-Detection.git
 ```
 
 Navigate to the project directory:
