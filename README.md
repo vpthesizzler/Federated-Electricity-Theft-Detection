@@ -37,7 +37,7 @@ The main contributions of this work are:
 
 The proposed framework follows a multi-stage machine learning pipeline:
 
-```
+
 ![Workflow](results/workflow.png)
 ```
 
