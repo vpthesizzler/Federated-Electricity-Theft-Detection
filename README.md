@@ -38,38 +38,7 @@ The main contributions of this work are:
 The proposed framework follows a multi-stage machine learning pipeline:
 
 ```
-Smart Meter Data (SGCC)
-|
-|
-+----------------+
-|
-v
-Feature Fusion
-|
-|
-PMU Frequency Data --------+
-|
-v
-Data Preprocessing
-|
-v
-SMOTE Balancing
-|
-v
---------------------------------
-| |
-v v
-Centralized Training Federated Learning
-| Simulation
-| |
-v v
-Random Forest + XGBoost Client-Level Training
-Hybrid Ensemble and Aggregation
-| |
---------------------------------
-|
-v
-Performance Evaluation
+![Workflow](results/plots/confusion_matrix_smote.png)
 ```
 
 The framework consists of the following stages:
