@@ -38,7 +38,7 @@ The main contributions of this work are:
 The proposed framework follows a multi-stage machine learning pipeline:
 
 ```
-![Workflow](results/plots/confusion_matrix_smote.png)
+![Workflow](results/workflow.png)
 ```
 
 The framework consists of the following stages:
