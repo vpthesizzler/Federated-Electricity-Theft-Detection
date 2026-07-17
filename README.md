@@ -186,6 +186,136 @@ results/tables/smote_comparison.csv
 
 ![ROC Curve](results/plots/roc_curve_smote.png)
 
+## Repository Structure
+
+```
+Federated-Electricity-Theft-Detection
+│
+├── data
+│ └── README.md
+│
+├── notebooks
+│ └── Federated_Electricity_Theft_Detection.ipynb
+│
+├── src
+│ ├── preprocessing.py
+│ ├── models.py
+│ ├── evaluation.py
+│ └── utils.py
+│
+├── models
+│ └── README.md
+│
+├── results
+│ ├── tables
+│ │ └── smote_comparison.csv
+│ │
+│ └── plots
+│ ├── smote_comparison.png
+│ ├── confusion_matrix_smote.png
+│ └── roc_curve_smote.png
+│
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
+
+### Folder Description
+
+| Folder | Description |
+|---|---|
+| `data` | Dataset information and instructions |
+| `src` | Python implementation of preprocessing, modelling and evaluation |
+| `notebooks` | Experimental workflow notebooks |
+| `models` | Saved machine learning models |
+| `results` | Generated tables and visualisations |
+
+
+---
+
+## Usage
+
+### 1. Prepare Dataset
+
+Place the required datasets inside the `data` directory:
+
+```
+data/
+│
+├── sgcc_ml_ready.csv
+└── merged_frequency_data.csv
+```
+
+---
+
+### 2. Run the Experiment
+
+The complete machine learning workflow includes:
+
+1. Loading and preprocessing smart meter and PMU frequency data.
+2. Performing feature fusion.
+3. Splitting data into training and testing sets.
+4. Applying SMOTE for class balancing.
+5. Training Random Forest and XGBoost classifiers.
+6. Generating hybrid ensemble predictions.
+7. Evaluating model performance using classification metrics.
+
+---
+
+### 3. Results
+
+After execution, the generated outputs include:
+
+- Performance comparison tables:
+
+```
+results/tables/smote_comparison.csv
+```
+
+- Performance visualisations:
+
+```
+results/plots/
+```
+
+including:
+
+- SMOTE comparison chart
+- Confusion matrix
+- ROC curve
+
+
+---
+
+## Citation
+
+If you use this repository or build upon this work, please cite:
+
+```
+Vrushabh Patil,
+"Privacy-Preserving Electricity Theft Detection Using Federated Learning Simulation and Hybrid Ensemble Learning"
+```
+
+
+---
+
+## Author
+
+**Vrushabh Patil**
+
+Research focus:
+
+- Smart Grid Cybersecurity
+- Electricity Theft Detection
+- Machine Learning for Power Systems
+- Federated Learning Applications
+- Artificial Intelligence in Energy Systems
+
+This repository supports research on privacy-preserving machine learning approaches for secure and resilient smart grid operation.
+
+
+
+
 
 
 
