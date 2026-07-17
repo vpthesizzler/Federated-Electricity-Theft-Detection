@@ -163,8 +163,8 @@ The proposed framework was evaluated using a hybrid ensemble of Random Forest an
 
 | Model | Accuracy | Precision | Recall | F1-score | ROC-AUC |
 |---|---|---|---|---|---|
-| Hybrid Ensemble without SMOTE | - | - | - | - | - |
-| Hybrid Ensemble with SMOTE | - | - | - | - | - |
+| Hybrid Ensemble without SMOTE | 0.916 | 0.68 | 0.047 | 0.088 | 0.724 |
+| Hybrid Ensemble with SMOTE | 0.800 | 0.188 | 0.407 | 0.258 | 0.703 |
 
 The complete numerical results are available in:
 
