@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Privacy-Preserving Electricity Theft Detection Using Federated Learning Simulation and Hybrid Ensemble Learning"
+message: "If you use this repository, please cite this work."
+type: software
+
+authors:
+- family-names: "Patil"
+given-names: "Vrushabh"
+
+repository-code: "YOUR_PAPER_3_GITHUB_LINK"
+
+keywords:
+- Federated Learning
+- Privacy-Preserving AI
+- Smart Grid
+- Electricity Theft Detection
+- Machine Learning
+- Ensemble Learning
